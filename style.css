@@ -32,6 +32,7 @@ header{
     font-size: 1.1em;
     font-weight: 500;
     padding-left: 30px;
+    
 }
 .navigation a:hover{
     color: hsl(0, 13%, 62%);
@@ -235,6 +236,17 @@ color: wheat;
 .contact .info p{
     font-size: 0.9em;
 }
+.arrowImg{
+    display: flex;
+    justify-content: right;
+    align-items: flex-end;
+}
+.arrowImg img{
+    height: 3em;
+    width: 3em;
+    margin: 10px 30px;
+    
+}
 
 .info p a{
     color: wheat;
@@ -290,6 +302,17 @@ color: wheat;
     width: calc(100%/20);
     margin: 5px;
     height: 2.7em;
+}
+.educationContainer{
+    
+}
+.eductaion{
+    display: flex;
+}
+.education ul{
+    margin: 50px;
+    margin-top: 20px;
+    font-size: 17px;
 }
 
 @media (max-width:1023px) {
